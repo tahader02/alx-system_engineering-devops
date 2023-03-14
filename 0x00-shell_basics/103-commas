@@ -1,3 +1,0 @@
-#!/bin/bash
-ls -p -a | awk '{printf("%s, ", $0)} END {printf("\n")}' | sed 's/ //g' | sed 's/\(.*\),/\1\n/'
-
