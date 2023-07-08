@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -ap | paste -sd "," - | sed "s/, /,\ /g"
